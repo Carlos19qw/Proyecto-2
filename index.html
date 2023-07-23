@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>CRUD</title>
+</head>
+
+<body>
+    <h1>CRUD DE USUARIOS</h1>
+   
+        <label>Nombre</label>
+        <input type="text" id="name" placeholder="Ingresar un Nombre">
+        <label>Correo</label>
+        <input type="text" id="email" placeholder="Ingresar un Correo">
+        <div>
+            <button onclick="addData(event)">Agregar</button>
+            <input type="submit" value="Editar" id="edit-btn" style="display: none;">
+        </div>
+    
+    <hr>
+    <ul id="ul-data"></ul>
+    <div id="edit-user"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
